@@ -14,7 +14,7 @@ function checkUsername(minLength) {
   }
 }
 
-// use an anonymous function to wrap the function that you want to pass parameters to
+// use an anonymous function to wrap the function that you want to pass arguments to
 // when username element loses focus
 elUsername.addEventListener('blur', function() {
   // call the function and pass arguments
