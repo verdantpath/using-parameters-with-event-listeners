@@ -9,7 +9,7 @@ function checkUsername(minLength) {
     // Set the error message
     elMsg.textContent = 'Username must be ' + minLength + ' characters or more';
   } else {
-    // clear the message
+    // clear the message 
     elMsg.innerHTML = '';
   }
 }
