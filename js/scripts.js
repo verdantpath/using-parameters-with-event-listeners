@@ -6,10 +6,10 @@ var elMsg = document.getElementById('feedback');
 function checkUsername(minLength) {
   // check if username is too short
   if (elUsername.value.length < minLength) {
-    // Set the error message
+    // Set the error message 
     elMsg.textContent = 'Username must be ' + minLength + ' characters or more';
   } else {
-    // clear the message 
+    // clear the message
     elMsg.innerHTML = '';
   }
 }
